@@ -1,44 +1,52 @@
-@media only screen and (max-width:460px){
+@media only screen and (max-width:769px){
     body{
         background-color: black;
-    }
-    body{
         margin: 0;
     }
-    
+
+    #menu-humburger-miova{
+        display:block;
+        margin-right: 60px;
+        width:70px
+
+    }
+
+    #menu-humburger{
+        display: none;
+    }
+
+    #menu-humberger-miova:hover +#menu-humberger{
+        display: block;
+    }
+
     header{
         display: flex;
         align-items: center;
         flex-wrap: nowrap;
         justify-content: space-between;
     }
+
     main{
         height: 100vh;
         background-image: linear-gradient(#5D3D92, white);
         padding: 10px 5% 5%;
     }
-    header .logo{
-    
-    }
+
     button{
         border: none;
-    }
-    nav{
-    
     }
     
     h1{
         margin-bottom: 0;
     }
-    p{
-        font-size: 24px;
-        line-height: 35px;
-    }
+
     .menu_items{
         display: inline-flex;
         list-style: none;
         align-items: center;
+    
     }
+
     
     .menu_items li{
         margin: 0 15px;
@@ -52,6 +60,7 @@
         font-size: 18px;
         border-radius: 30px;
     }
+
     .btn_bg_white:hover{
         background-color: #5D3D92;
         color: white;
@@ -60,14 +69,6 @@
     .txt_gras {
         font-weight: 900;
     }
-    
-    .em13 {
-        font-size: 13em;
-        line-height: 10px;
-        text-align: center;
-        margin: 148px;
-    }
-    
     .em3{
         font-size: 3em;
     }
@@ -79,16 +80,13 @@
     footer img{
         width: 100%;
     }
-}
-@media only screen and (max: width 425px;){
-    .menu_items ul{
-        display: block;
+    p{
+        font-size: 12px;
+        line-height: 25px;
     }
-    .em3{
-        font-size: 2em;
-    }
-    div p{
-        font-size: 20px;
-        line-height: 30px;
+    .em13 {
+        font-size: 4em;
+        margin: 100px 40px 0 20px;
     }
 }
+ 
